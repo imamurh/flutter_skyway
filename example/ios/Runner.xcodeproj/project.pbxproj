@@ -254,7 +254,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh",
-				"${PODS_ROOT}/../.symlinks/flutter/ios-release/Flutter.framework",
+				"${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework",
+				"${PODS_ROOT}/SkyWay/SkyWay.framework",
 				"${BUILT_PRODUCTS_DIR}/flutter_skyway/flutter_skyway.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -262,6 +263,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyWay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_skyway.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
